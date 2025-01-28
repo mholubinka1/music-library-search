@@ -43,7 +43,7 @@ Code-checking and linting tools are configured to run automatically on every com
 
 This application uses [pytest](https://docs.pytest.org/en/7.2.x/) as the unit testing framework with all tests stored in the ```tests``` directory.
 
-#### 3.1. Run Tests
+##### 3.1. Run Tests
 
 Run all tests with ```poetry run pytest tests```
 

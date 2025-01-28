@@ -7,14 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11.4"
-fastapi = "^0.115.4"
+fastapi = "^0.109.1"
 sqlalchemy = "^2.0.19"
 uvicorn = "^0.32.0"
 
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.4.1"
-black = "^24.10.0"
+black = "^24.3.0"
 isort = "^5.12.0"
 sqlalchemy-stubs = "^0.4"
 pre-commit = "^4.0.1"
