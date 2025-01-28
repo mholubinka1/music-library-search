@@ -21,7 +21,7 @@
 
 ### Modifying This Repository
 
-#### 1. Setup
+### 1. Setup
 
 - Install Python 3.11.4 or higher
 - Install [poetry](https://python-poetry.org/) version 1.5.1 or higher
@@ -31,7 +31,7 @@
     - If the environment is not activated, activate it with: ```poetry shell```
     - Install all dependencies (in this virtual environment), including the development dependencies: ```poetry install --with dev```
 
-#### 2. Pre-Commit Setup
+### 2. Pre-Commit Setup
 
 Code-checking and linting tools are configured to run automatically on every commit to save manual efforts.
 
@@ -39,11 +39,11 @@ Code-checking and linting tools are configured to run automatically on every com
 - Add to the git repository: ```pre-commit install```
 - Run ```pre-commit run --all-file``` to execute all ```pre-commit``` hooks
 
-#### 3. Unit Testing
+### 3. Unit Testing
 
 This application uses [pytest](https://docs.pytest.org/en/7.2.x/) as the unit testing framework with all tests stored in the ```tests``` directory.
 
-##### 3.1. Run Tests
+#### 3.1. Run Tests
 
 Run all tests with ```poetry run pytest tests```
 
