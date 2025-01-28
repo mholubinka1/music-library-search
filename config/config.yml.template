@@ -1,0 +1,3 @@
+discogs:
+  username: <discogs-username>
+  token: <personal-access-token>
